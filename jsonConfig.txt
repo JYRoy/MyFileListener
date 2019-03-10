@@ -1,0 +1,1 @@
+{"dict": [{"path": "E:/testing", "include": ["log_"], "exclude": [".swp", ".swx", "tmp"]}, {"path": "E:/tmp", "include": [".record"], "exclude": [".tmp"]}]}

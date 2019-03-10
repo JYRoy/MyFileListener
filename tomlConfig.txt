@@ -1,0 +1,10 @@
+[[dict]]
+path = "E:/testing"
+include = [ "log_",]
+exclude = [ ".swp", ".swx", "tmp",]
+
+[[dict]]
+path = "E:/tmp"
+include = [ ".record",]
+exclude = [ ".tmp",]
+
