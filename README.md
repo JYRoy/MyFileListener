@@ -13,3 +13,10 @@
 　判断字符串中是否含有字串最常用的方法是 in 和 string 中的 find 方法，这里就不再赘述，可以直接看下面的代码
 
   3. 因为要同时监控多个文件夹，所以必须要利用到线程来处理，创建一个线程池来存储线程， 线程利用了 threading 库，并且实现一个线程类来处理线程的操作
+  
+ #文件说明
+  createConfigFile 为分别初始化json和toml格式的配置文件
+  myToml 为基于toml格式数据传递的监控程序
+  myJson 为基于Json格式数据传递的监控程序
+  jsonConfig 为json格式的配置文件
+  tomlConfig 为toml格式的配置文件
